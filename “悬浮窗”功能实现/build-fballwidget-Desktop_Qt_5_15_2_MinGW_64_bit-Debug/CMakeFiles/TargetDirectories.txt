@@ -1,0 +1,9 @@
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/fballwidget.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/fballwidget_autogen_timestamp_deps.dir
+D:/Qt_code/build-fballwidget-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/fballwidget_autogen.dir
