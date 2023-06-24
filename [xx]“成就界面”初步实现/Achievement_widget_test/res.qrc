@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>C:/Users/86199/Desktop/Images/1.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/2.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/3.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/4.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/dot.png</file>
+        <file>C:/Users/86199/Desktop/Images/dot2.png</file>
+        <file>C:/Users/86199/Desktop/Images/new1.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/new2.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/new3.jpg</file>
+        <file>C:/Users/86199/Desktop/Images/new4.jpg</file>
+    </qresource>
+</RCC>
