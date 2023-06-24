@@ -12,6 +12,7 @@
 #include <QAction>
 #include <QContextMenuEvent>
 #include "widget.h"
+#include <QVBoxLayout>//新增头文件
 
 FBallWidget::FBallWidget(QWidget *parent)
     : QWidget(parent)
