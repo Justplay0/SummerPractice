@@ -1,3 +1,4 @@
+//114--153行contextMenuEvent函数修改 增加了鼠标单击exit后弹出新的确认窗口。单击确认后跳转至主界面，单击取消后回到悬浮窗界面。
 #include "fballwidget.h"
 #include <QDesktopWidget>
 #include <QApplication>
@@ -104,7 +105,14 @@ void FBallWidget::leaveEvent(QEvent *event)
     //如果没有，则隐藏小球。如果是，则不做处理，直到鼠标离开小球后再隐藏。
 }
 
-void FBallWidget::contextMenuEvent(QContextMenuEvent * e)//处理右键，弹出菜单
+void FBallWidget::leaveEvent(QEvent *event)
+{
+    m_timer->start(500);//鼠标离开小球区域时，会启动定时器。
+    //在定时器回调函数中，会判断鼠标是否停留在小球上，
+    //如果没有，则隐藏小球。如果是，则不做处理，直到鼠标离开小球后再隐藏。
+}
+
+void FBallWidget::contextMenuEvent(QContextMenuEvent * e) //处理鼠标右键单击事件
 {
     QMenu menu;
     menu.addAction(QStringLiteral("exit"));
@@ -113,11 +121,43 @@ void FBallWidget::contextMenuEvent(QContextMenuEvent * e)//处理右键，弹出
 
     if(act && act->text() == QStringLiteral("exit"))
     {
-        qDebug() << "show new window";//跳转至下一个窗口，此处连接任务界面
-        Widget *newWindow = new Widget();
-        newWindow->show();
-        close();//关闭悬浮窗
+// 创建新窗口
+QWidget *exitWindow = new QWidget(this, Qt::Dialog | Qt::WindowTitleHint | Qt::CustomizeWindowHint); //使用 QDialog 可以模拟模态对话框
+exitWindow->setWindowModality(Qt::ApplicationModal); //设置为应用程序模态，阻塞父窗口
+exitWindow->setFixedSize(300, 100); //设置窗口大小
+QVBoxLayout *layout = new QVBoxLayout(exitWindow); //设置布局
+QLabel *label = new QLabel("是否放弃本次专注？", exitWindow);
+layout->addWidget(label);
+QHBoxLayout *buttonLayout = new QHBoxLayout; //创建水平布局
+QPushButton *confirmBtn = new QPushButton("确定", exitWindow);
+QPushButton *cancelBtn = new QPushButton("取消", exitWindow);
+buttonLayout->addWidget(confirmBtn);
+buttonLayout->addWidget(cancelBtn);
+layout->addLayout(buttonLayout);
+
+// 点击确定按钮返回新界面
+connect(confirmBtn, &QPushButton::clicked, [=]{
+    qDebug() << "跳转至下一个窗口";
+    Window *newWindow = new Window();
+    newWindow->show();
+    exitWindow->close();
+    close();//关闭当前窗口
+});
+
+// 点击取消按钮返回原界面
+connect(cancelBtn, &QPushButton::clicked, [=]{
+    exitWindow->close(); //关闭新窗口，返回原窗口
+});
+
+exitWindow->show();
     }
+}
+
+
+void FBallWidget::OnCloseSlot()//关闭窗口
+{
+    qDebug() << "OnCloseSlot";
+    close();
 }
 
 
