@@ -1,0 +1,11 @@
+debug/add.o
+debug/focustime.o
+debug/formfball.o
+debug/main.o
+debug/mainwindow.o
+debug/qrc_fball.o
+debug/qrc_icon.o
+debug/moc_add.o
+debug/moc_focustime.o
+debug/moc_formfball.o
+debug/moc_mainwindow.o

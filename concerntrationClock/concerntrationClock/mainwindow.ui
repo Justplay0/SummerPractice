@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <italic>true</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>plant.ico</normaloff>
+    <normalon>plant.ico</normalon>
+    <disabledoff>plant.ico</disabledoff>
+    <disabledon>plant.ico</disabledon>
+    <activeoff>plant.ico</activeoff>
+    <activeon>plant.ico</activeon>
+    <selectedoff>plant.ico</selectedoff>
+    <selectedon>plant.ico</selectedon>plant.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>811</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>793</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="addMenu">
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>添加</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="returnMenu">
+    <property name="title">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menulogo">
+    <property name="title">
+     <string>logo</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="historyMenu">
+    <property name="title">
+     <string>历史数据</string>
+    </property>
+   </widget>
+   <addaction name="returnMenu"/>
+   <addaction name="menulogo"/>
+   <addaction name="historyMenu"/>
+   <addaction name="addMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+release/add.o
+release/focustime.o
+release/formfball.o
+release/main.o
+release/mainwindow.o
+release/qrc_fball.o
+release/qrc_icon.o
+release/moc_add.o
+release/moc_focustime.o
+release/moc_formfball.o
+release/moc_mainwindow.o
