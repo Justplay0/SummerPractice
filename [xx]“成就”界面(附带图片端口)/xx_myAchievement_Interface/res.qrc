@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/dotImage/planet_dot1.png</file>
+        <file>Images/dotImage/planet_dot2.png</file>
+        <file>Images/dotImage/planet_flag1.png</file>
+        <file>Images/dotImage/planet_flag2.png</file>
+        <file>Images/achievement/achievement_1.png</file>
+        <file>Images/achievement/achievement_2.png</file>
+        <file>Images/achievement/achievement_3.png</file>
+        <file>Images/achievement/achievement_4.png</file>
+        <file>Images/achievement/achievement_5.png</file>
+        <file>Images/achievement/achievement_6.png</file>
+        <file>Images/achievement/achievement_7.png</file>
+        <file>Images/achievement/achievement_8.png</file>
+        <file>Images/achievement/achievement_9.png</file>
+    </qresource>
+</RCC>
