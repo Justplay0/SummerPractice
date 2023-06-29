@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myAchievementWidget</class>
+ <widget class="QWidget" name="myAchievementWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>750</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>myAchievementWidget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="11" column="0">
+         <widget class="myAchievementLabel" name="dot_250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="myAchievementLabel" name="dot_3500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="myAchievementLabel" name="dot_3750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="myAchievementLabel" name="planet_3000">
+          <property name="text">
+           <string>p3000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="myAchievementLabel" name="dot_2750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="myAchievementLabel" name="dot_2500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="myAchievementLabel" name="dot_2250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="myAchievementLabel" name="dot_3250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="myAchievementLabel" name="planet_2000">
+          <property name="text">
+           <string>p2000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="11">
+         <widget class="myAchievementLabel" name="planet_9000">
+          <property name="text">
+           <string>p9000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="myAchievementLabel" name="dot_1750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="myAchievementLabel" name="dot_500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="2">
+         <widget class="myAchievementLabel" name="dot_1500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="2">
+         <widget class="myAchievementLabel" name="dot_750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="3">
+         <widget class="myAchievementLabel" name="dot_1250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="3">
+         <widget class="myAchievementLabel" name="planet_1000">
+          <property name="text">
+           <string>p1000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="myAchievementLabel" name="planet_4000">
+          <property name="text">
+           <string>p4000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="5">
+         <widget class="myAchievementLabel" name="dot_4750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="5">
+         <widget class="myAchievementLabel" name="planet_5000">
+          <property name="text">
+           <string>p5000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="5">
+         <widget class="myAchievementLabel" name="dot_5250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="5">
+         <widget class="myAchievementLabel" name="dot_5500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="6">
+         <widget class="myAchievementLabel" name="dot_4250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="6">
+         <widget class="myAchievementLabel" name="dot_4500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="6">
+         <widget class="myAchievementLabel" name="dot_5750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="7">
+         <widget class="myAchievementLabel" name="planet_6000">
+          <property name="text">
+           <string>p6000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="8">
+         <widget class="myAchievementLabel" name="dot_6250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="9">
+         <widget class="myAchievementLabel" name="dot_8500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="9">
+         <widget class="myAchievementLabel" name="dot_8250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="9">
+         <widget class="myAchievementLabel" name="planet_8000">
+          <property name="text">
+           <string>p8000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="9">
+         <widget class="myAchievementLabel" name="dot_7750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="9">
+         <widget class="myAchievementLabel" name="dot_6500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="10">
+         <widget class="myAchievementLabel" name="dot_8750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="10">
+         <widget class="myAchievementLabel" name="dot_7500">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="10">
+         <widget class="myAchievementLabel" name="dot_6750">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="11">
+         <widget class="myAchievementLabel" name="dot_7250">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="11">
+         <widget class="myAchievementLabel" name="planet_7000">
+          <property name="text">
+           <string>p7000</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>myAchievementLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">myachievementlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
